@@ -15,3 +15,5 @@ const List = ({ arr }) => {
 List.propTypes = {
   arr: PropTypes.array.isRequired
 };
+
+export default List;
