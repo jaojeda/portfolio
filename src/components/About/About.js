@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import List from '../List';
+import { techArr, toolArr } from '../../../data/data';
 
 const About = () => {
-  const techArr = ['JavaScript', 'HTML', 'CSS'];
-  const toolArr = ['Heroku', 'Netlify', 'Socket.io'];
+  
   return (
     <>
       <h1>About Me</h1>
