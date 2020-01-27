@@ -8,6 +8,7 @@ const MediaLinks = ({ links }) => {
       <MediaLink {...link} />
     </li>
   ));
+
   return (
     <ul>
       {linkElements}
@@ -21,3 +22,5 @@ MediaLinks.propTypes = {
     link: PropTypes.string.isRequired
   })).isRequired
 };
+
+export default MediaLinks;
