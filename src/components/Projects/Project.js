@@ -19,7 +19,7 @@ Project.propTypes = {
   title: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  tech: PropTypes.array.isRequired,
+  tech: PropTypes.string.isRequired,
   repoLink: PropTypes.string.isRequired,
   demoLink: PropTypes.string.isRequired
 };
