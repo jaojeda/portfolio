@@ -1,12 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Project from './Project';
+import { projects } from '../../../data/data';
 
-const Projects = ({ projects }) => {
-  const projectElements = projects.map((project) => (
-    <>
-      <Project {...project} />
-    </>
+const Projects = () => {
+
+  const projectElements = projects.map((project, i) => (
+    <Project key={i} {...project} />
   ));
 
   return (
@@ -19,15 +18,5 @@ const Projects = ({ projects }) => {
   );
 };
 
-Projects.propTypes = {
-  projects: PropTypes.arrayOf(PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    img: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    tech: PropTypes.array.isRequired,
-    repoLink: PropTypes.string.isRequired,
-    demoLink: PropTypes.string.isRequired
-  })).isRequired
-};
 
 export default Projects;
