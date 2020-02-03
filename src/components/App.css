@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 98vh;
+}
+
+@font-face {
+  font-family: 'Playfair Display', serif;
+  src: url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
