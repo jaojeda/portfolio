@@ -1,16 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import styles from './Header.css';
 
 const Header = () => (
   <header className={styles.Header} >
     <h1>Title</h1>
-    <nav>
-      <Link to="/about">About</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/experience">Experience</Link>
-      <Link to="/contact">Contact</Link>
-    </nav>
+    <Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>Home</Link>
+    <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={500}>About</Link>
+    <Link activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration={500}>Projects</Link>
   </header>
 );
 

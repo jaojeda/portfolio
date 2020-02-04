@@ -7,7 +7,7 @@ const About = () => {
   
   return (
     <>
-      <h1>About Me</h1>
+      <h1 id="about">About Me</h1>
       <p>Hi! My name is Jose, I'm a Full-Stack developer that enjoys creating responsive apps.</p>
       <List arr={techArr} />
       <List arr={toolArr} />
