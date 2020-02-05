@@ -1,6 +1,29 @@
 .Project {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    list-style: none;
+    width: 26vw;
+    height: auto;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
   img {
     width: 25vw;
     height: auto;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
