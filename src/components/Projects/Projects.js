@@ -1,19 +1,22 @@
 import React from 'react';
 import Project from './Project';
 import { projects } from '../../../data/data';
+import styles from './Project.css';
 
 const Projects = () => {
 
   const projectElements = projects.map((project, i) => (
-    <Project key={i} {...project} />
+    <li key={i}>
+      <Project {...project} />
+    </li>
   ));
 
   return (
     <>
       <h1 id="projects">Projects</h1>
-      <section>
+      <ul className={styles.Project}>
         {projectElements}
-      </section>
+      </ul>
     </>
   );
 };

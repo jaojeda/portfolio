@@ -2,9 +2,14 @@
   background-color: lightblue;
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 300px;
+  height: 90vh;
   
- 
+  @font-face {
+    font-family: 'Playfair Display', serif;
+    src: url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+  }
+  
   
 }
 

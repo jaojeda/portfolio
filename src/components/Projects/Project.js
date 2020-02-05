@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Project = ({ title, img, description, tech, repoLink, demoLink }) => (
-  <div>
+  <>
     <h3>{title}</h3>
     <img src={img} alt={`image of ${title}`} />
     <p>{description}</p>
@@ -12,7 +12,7 @@ const Project = ({ title, img, description, tech, repoLink, demoLink }) => (
       <span>|</span>
       <a href={repoLink}>Repo</a>
     </nav>
-  </div>
+  </>
 );
 
 Project.propTypes = {
