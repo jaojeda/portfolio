@@ -1,6 +1,6 @@
-export const techArr = ['JavaScript', 'HTML', 'CSS'];
+export const techArr = ['JavaScript', 'HTML', 'CSS', 'Node.js', 'Express', 'Socket.io', 'React.js', 'Redux', 'P5', 'PostgreSQL', 'MongoDB', 'Mongoose'];
 
-export const toolArr = ['Heroku', 'Netlify', 'Socket.io'];
+export const toolArr = ['Heroku', 'Netlify', 'Socket.io', 'Jest', 'QUnit', 'Github', 'Swagger.io'];
 
 export const projects = [
   {
