@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Oswald');
 
 * {
+  font-family: 'Heebo', "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   box-sizing: border-box;
 }
 
@@ -8,4 +10,8 @@
   flex-direction: row;
   width: 100%;
   height: auto;
+  section {
+    position: absolute;
+    left: 315px;
+  }
 }
