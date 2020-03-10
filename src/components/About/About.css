@@ -1,0 +1,10 @@
+.About {
+  li {
+    list-style: none;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+  }
+}

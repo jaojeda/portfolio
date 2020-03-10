@@ -2,16 +2,20 @@
 import React from 'react';
 import List from '../List';
 import { techArr, toolArr } from '../../../data/data';
+import styles from './About.css';
 
 const About = () => {
   
   return (
-    <>
+    <div className={styles.About} >
       <h1 id="about">About Me</h1>
       <p>Hi! My name is Jose, I'm a Full-Stack developer that enjoys creating responsive apps.</p>
-      <List arr={techArr} />
-      <List arr={toolArr} />
-    </>
+      <div>
+        <List arr={techArr} />
+        <List arr={toolArr} />
+      </div>
+    </div>
+  
   );
 };
 
