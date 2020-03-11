@@ -1,7 +1,8 @@
 import React from 'react';
+import styles from './Home.css';
 
 const Home = () => (
-  <h1 id="home">Home</h1>
+  <img id={'home'} className={styles.Home} src='../../../assets/portfolio-banner.png'/>
 );
 
 export default Home;
