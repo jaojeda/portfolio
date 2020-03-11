@@ -1,0 +1,17 @@
+.MediaLinks{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: center;
+
+  li {
+    list-style: none;
+    width: 2em;
+  }
+
+  img {
+    width: 1.5em;
+    height: auto;
+  }
+
+}

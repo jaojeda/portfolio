@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MediaLink from './MediaLink';
+import styles from './MediaLinks.css';
 
 const MediaLinks = ({ links }) => {
   const linkElements = links.map((link, i) => (
@@ -10,7 +11,7 @@ const MediaLinks = ({ links }) => {
   ));
 
   return (
-    <ul>
+    <ul className={styles.MediaLinks}>
       {linkElements}
     </ul>
   );

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import styles from './MediaLink.css';
 
 const MediaLink = ({ img, link }) => (
-  <Link to={link}>
-    <img src="img" />
-  </Link>
+  <a className={styles.MediaLink} href={link}>
+    <img src={img} />
+  </a>
 );
 
 MediaLink.propTypes = {

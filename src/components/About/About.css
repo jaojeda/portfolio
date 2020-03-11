@@ -1,5 +1,10 @@
 .About {
+  ul{
+    display: flex;
+    flex-direction: column;
+  }
   li {
+    font-family: 'Sen', sans-serif;
     list-style: none;
   }
 

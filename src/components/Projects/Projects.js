@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './Project';
 import { projects } from '../../../data/data';
-import styles from './Project.css';
+import styles from './Projects.css';
 
 const Projects = () => {
 
@@ -13,8 +13,8 @@ const Projects = () => {
 
   return (
     <>
-      <h1 id="projects">Projects</h1>
-      <ul className={styles.Project}>
+      <h1 id="projects">PROJECTS</h1>
+      <ul className={styles.Projects}>
         {projectElements}
       </ul>
     </>

@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from '../App.css';
 
 const Project = ({ title, img, description, tech, repoLink, demoLink }) => (
   <>
     <h3>{title}</h3>
     <img src={img} alt={`image of ${title}`} />
     <p>{description}</p>
-    <p>{tech}</p>
+    <p className={styles.emphasis}>{tech}</p>
     <nav>
       <a href={demoLink}>Site</a>
       <span>|</span>

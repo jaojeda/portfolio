@@ -1,0 +1,40 @@
+.Projects {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    list-style: none;
+    width: 26vw;
+    height: auto;
+    margin: 2vw;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  img {
+    width: 26vw;
+    height: auto;
+  }
+
+  p {
+    text-align: justify;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  a {
+    margin: 0 1em;
+    font-family: 'Sen', sans-serif;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-shadow: .5px .5px lightgray
+  }
+}
