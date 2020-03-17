@@ -1,8 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './components/App';
+// import App from './components/App';
+import Banner from './components/Banner/Banner';
 
 render(
-  <App />,
+  <Banner />,
   document.getElementById('root')
 );

@@ -1,0 +1,48 @@
+.Banner {
+  position: absolute;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+  width: 60vw;
+  height: 200px;
+  overflow: hidden;
+
+  @keyframes fadeIn{
+    from {
+      display: none;
+    }
+    to {
+      display: inline;
+    }
+  }
+
+  .lines {
+    transform: rotate(35deg);
+    width: 350px;
+    height: auto;
+    position: absolute;
+    right: -9vw;
+    top: -4vw;
+    animation-name: fadeIn;
+    animation-duration: 4s;
+  }
+
+  .dots {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    bottom: -4vw;
+    left: -2vw;
+    transform: rotate(35deg);
+  }
+
+  div {
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    background: #9fcbb4;  
+    transform: rotate(159deg) skew(-25deg, 0deg);  
+    position: absolute;
+    right: 2vw;
+    top: 20vh;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+  }
+}
