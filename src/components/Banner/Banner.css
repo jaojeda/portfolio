@@ -5,15 +5,6 @@
   height: 200px;
   overflow: hidden;
 
-  @keyframes fadeIn{
-    from {
-      display: none;
-    }
-    to {
-      display: inline;
-    }
-  }
-
   .lines {
     transform: rotate(35deg);
     width: 350px;
@@ -21,8 +12,6 @@
     position: absolute;
     right: -9vw;
     top: -4vw;
-    animation-name: fadeIn;
-    animation-duration: 4s;
   }
 
   .dots {
@@ -45,4 +34,5 @@
     top: 20vh;
     box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
   }
+
 }
