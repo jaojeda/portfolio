@@ -12,7 +12,9 @@ const Banner = () => {
     ref: transitionRef
   });
 
-  useEffect(() => setTimeout(() => set(true), 3000), []);
+  useEffect(() => {
+    setTimeout(() => set(true), 3000);
+  }, []);
 
   const springRef = useRef();
   const props = useSpring({ opacity: 1, from: { opacity: 0 }, config: { duration: 1000 }, ref: springRef });
@@ -31,10 +33,10 @@ const Banner = () => {
       <animated.img style={props} className={styles.dots} src='../../../assets/geo1.png'/>
       <animated.img style={props0} className={styles.lines} src='../../../assets/geo2.png'/>
       <animated.div style={props1} className={styles.para}></animated.div>
-      {transitions.map(({ item, props }) => 
+      {transitions.map(({ item, key, props }) => 
         item
-          ? <animated.div style={props}>JOSE OJEDA // FULL STACK DEVELOPER</animated.div>
-          : <animated.div style={props}>WELCOME</animated.div>
+          ? <animated.div key={key} style={props}>JOSE OJEDA // FULL STACK DEVELOPER</animated.div>
+          : <animated.div key={key} style={props}>WELCOME</animated.div>
       )}
     </div>
   );

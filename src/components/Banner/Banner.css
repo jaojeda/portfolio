@@ -4,6 +4,8 @@
   width: 60vw;
   height: 200px;
   overflow: hidden;
+  font-family: 'Sen', sans-serif;
+  color: #5397ad;
 
   .lines {
     transform: rotate(35deg);
@@ -23,7 +25,7 @@
     transform: rotate(35deg);
   }
 
-  div {
+  .para {
     width: 250px;
     height: 150px;
     display: inline-block;
