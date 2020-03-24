@@ -35,8 +35,14 @@ const Banner = () => {
       <animated.div style={props1} className={styles.para}></animated.div>
       {transitions.map(({ item, key, props }) => 
         item
-          ? <animated.div key={key} style={props}>JOSE OJEDA // FULL STACK DEVELOPER</animated.div>
-          : <animated.div key={key} style={props}>WELCOME</animated.div>
+          ? <animated.div key={key} style={props}>
+            <h2>JOSE OJEDA </h2>
+            <h3>{'// FULL STACK DEVELOPER'}</h3>
+          </animated.div>
+          
+          : <animated.div key={key} style={props}>
+            <h2>WELCOME</h2>
+          </animated.div>
       )}
     </div>
   );

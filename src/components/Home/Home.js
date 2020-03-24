@@ -1,8 +1,11 @@
 import React from 'react';
-import styles from './Home.css';
+// import styles from './Home.css';
+import Banner from '../Banner/Banner';
 
 const Home = () => (
-  <img id={'home'} className={styles.Home} src='../../../assets/portfolio-banner.png'/>
+  <span id="home">
+    <Banner />
+  </span>
 );
 
 export default Home;
