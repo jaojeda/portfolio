@@ -1,6 +1,8 @@
 import React, { useRef, useState, useEffect } from 'react';
 import styles from './Banner.css';
 import { useSpring, animated, useChain, useTransition } from 'react-spring';
+import geo1 from '../../../assets/geo1.png';
+import geo2 from '../../../assets/geo2.png';
 
 const Banner = () => {
   const transitionRef = useRef();
@@ -30,8 +32,8 @@ const Banner = () => {
 
   return (
     <div className={styles.Banner}>
-      <animated.img style={props} className={styles.dots} src='../../../assets/geo1.png'/>
-      <animated.img style={props0} className={styles.lines} src='../../../assets/geo2.png'/>
+      <animated.img style={props} className={styles.dots} src={geo1}/>
+      <animated.img style={props0} className={styles.lines} src={geo2}/>
       <animated.div style={props1} className={styles.para}></animated.div>
       {transitions.map(({ item, key, props }) => 
         item
