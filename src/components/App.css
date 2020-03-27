@@ -2,11 +2,12 @@
 
 
 .container {
+
   display: flex;
   flex-direction: row;
   width: 100%;
   height: auto;
-
+  
   section {
     position: absolute;
     left: 25vw;
@@ -26,6 +27,7 @@
 
   h1 {
     font-size: 1.7rem;
+    margin-top: 1em;
   }
 
   h1, h3 {

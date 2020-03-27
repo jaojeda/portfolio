@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className={styles.About} >
       <h1 id="about">ABOUT ME</h1>
-      <p>Hi! My name is Jose, I'm a Full-Stack developer that enjoys creating responsive apps.</p>
+      <p>I'm a software developer who believes good software design always keeps the end-user in mind and is as clean as it is clever. I have a focus on finding client centric solutions that can affect meaningful change rooted in six years experience throughout multiple roles in the insurance industry.</p>
       <div>
         <List arr={langArr} title={'LANGUAGES'} />
         <List arr={toolArr} title={'TOOLS'} />

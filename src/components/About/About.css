@@ -1,4 +1,7 @@
 .About {
+  p {
+    margin: 1em 10em 1em 1em;
+  }
   ul{
     display: flex;
     flex-direction: column;
