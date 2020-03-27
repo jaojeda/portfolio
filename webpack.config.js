@@ -13,7 +13,7 @@ module.exports = {
     historyApiFallback: true
   },
   plugins: [
-    new HtmlPlugin({ template: './src/index.html' }),
+    new HtmlPlugin({ template: './src/index.html', favicon: './src/favicon.ico' }),
     new CleanWebpackPlugin()
   ],
   module: {
