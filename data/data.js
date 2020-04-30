@@ -14,8 +14,8 @@ export const projects = [
     img: 'https://raw.githubusercontent.com/jaojeda/portfolio/master/assets/maze-race.png',
     description: 'A retro-inspired multiplayer game that allows players to invite up to eight friends to a private lobby and race against each other to see who can solve a randomly generated maze the fastest.',
     tech: 'Node.js, Socket.io, React, P5',
-    repoLink: 'https://maze-race.netlify.com/',
-    demoLink: 'https://github.com/Team-Amazing-Race'
+    repoLink: 'https://github.com/Team-Amazing-Race',
+    demoLink: 'https://maze-race.netlify.com/'
   },
   {
     title: 'MAZE API',
